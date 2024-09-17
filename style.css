@@ -300,6 +300,10 @@ p {
     flex-direction: column;
     align-items: center;
   }
+  .interesado ul {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
 }
 
 @media (min-width: 1200px) {
