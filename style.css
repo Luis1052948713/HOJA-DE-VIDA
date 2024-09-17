@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: lightblue;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,7 +29,7 @@ body {
 
 .container .left_side {
   position: relative;
-  background: #003147;
+  background: #02121a;
   padding: 40px;
 }
 
@@ -63,15 +63,17 @@ body {
 
 .contacto {
   padding-top: 40px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .titulo {
-  color: #fff;
+  color: #100f20;
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 20px;
-  background-color: #03a9f4;
+  background-color: #ffdd1b;
   padding: 10px;
   text-align: left;
   border-radius: 10px;
@@ -138,6 +140,13 @@ body {
 
 .sobremi {
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
 .sobremi:last-child {
@@ -145,18 +154,18 @@ body {
 }
 
 .titulo2 {
-  color: #5096b6;
+  color: #000000;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
 .titulo2 .port {
   text-decoration: none;
-  color: #5096b6;
+  color: #000000;
 }
 
 p {
-  color: #333;
+  color: #282828;
   text-align: justify;
 }
 
@@ -177,13 +186,13 @@ p {
 }
 
 .años_compañia h5 {
-  color: #5096b6;
+  color: #3c3d3d;
   font-size: 1.1em;
   font-weight: bold;
 }
 
 .text h4 {
-  color: #5096b6;
+  color: #5c5e5e;
   font-size: 1.2em;
   margin-bottom: 8px;
 }
@@ -194,7 +203,7 @@ p {
 }
 
 .text a {
-  color: #03a9f4;
+  color: #798b94;
   text-decoration: none;
   font-weight: bold;
 }
@@ -214,7 +223,7 @@ p {
 
 .skill .box h4 {
   text-transform: uppercase;
-  color: #848c90;
+  color: #5d5e5e;
   font-weight: 500;
 }
 
@@ -259,7 +268,7 @@ p {
   }
 
   .imagen {
-    width: 70%;
+    width: 30%;
     margin: 0 auto;
     display: block;
   }
@@ -277,7 +286,7 @@ p {
   }
 
   .imagen {
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
   }
 
