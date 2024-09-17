@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background: #fff;
+  margin: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_side {
+  position: relative;
+  background: #003147;
+  padding: 40px;
+}
+
+.imagen {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.profileText {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profileText h2 {
+  color: #fff;
+  font-size: 1.2em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 1.4em;
+}
+
+.profileText h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.contacto {
+  padding-top: 40px;
+}
+
+.titulo {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  background-color: #03a9f4;
+  padding: 10px;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.contacto ul {
+  margin-left: -10px;
+}
+
+.contacto ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.contacto ul li .icon {
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+
+.contacto ul li span {
+  color: #fff;
+  font-weight: 300;
+}
+
+.contacto.educacion li {
+  margin-bottom: 15px;
+}
+
+.contacto.educacion h5 {
+  color: #03a9f4;
+  font-weight: 500;
+}
+
+.contacto.educacion h4 {
+  color: #fff;
+  font-weight: 100;
+}
+
+.contacto.educacion h4:nth-child(2) {
+  font-weight: 900;
+}
+
+.contacto.idioma .percent {
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #081921;
+  margin-top: 5px;
+}
+
+.contacto.idioma .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 6px;
+  background: #03a9f4;
+}
+
+.container .right_side {
+  background: #fff;
+  padding: 40px;
+}
+
+.sobremi {
+  margin-bottom: 50px;
+}
+
+.sobremi:last-child {
+  margin-bottom: 0;
+}
+
+.titulo2 {
+  color: #5096b6;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.titulo2 .port {
+  text-decoration: none;
+  color: #5096b6;
+}
+
+p {
+  color: #333;
+  text-align: justify;
+}
+
+.sobremi .box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.años_compañia {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.años_compañia h5 {
+  color: #5096b6;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.text h4 {
+  color: #5096b6;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.text p {
+  color: #333;
+  line-height: 1.6;
+}
+
+.text a {
+  color: #03a9f4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.text a:hover {
+  text-decoration: underline;
+}
+
+.skill .box {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill .box h4 {
+  text-transform: uppercase;
+  color: #848c90;
+  font-weight: 500;
+}
+
+.skill .box .percent {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.skill .box .percent div {
+  height: 100%;
+  background-color: #71b9db;
+}
+
+.interesado ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.interesado ul li {
+  list-style: none;
+  color: #333;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.interesado ul li .fa {
+  color: #03a9f4;
+  font-size: 18px;
+  width: 20px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    margin: 20px;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .imagen {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .sobremi .box {
+    margin: 20px 0;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 10px;
+    padding: 0;
+  }
+
+  .imagen {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .sobremi .box .años_compañia {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .sobremi .box {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    grid-template-columns: 1fr 2fr;
+  }
+}
